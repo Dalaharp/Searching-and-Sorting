@@ -1,2 +1,3 @@
 # Searching-and-Sorting
-Searches through file and sorts them
+
+includes linearSearch and binarySearch functions. linearSearch scans the vector linearly, returning the element's index if found or -1 if not. binarySearchsearches a sorted vector and returns the index if the target ispresent or -1 if absent, offering two search options based ondata characteristics. Additionally, the program also implements two sorting algorithms, Merge Sort and Quicksort,as template functions for vectors. Merge Sort dividesthe vector into smaller halves, recursively sorts them, and then merges them back together, providing stable sorting with atime complexity of O(n log n). Quick Sort uses a randomizedpivot to partition and sort the vector efficiently,achieving anaverage-case time complexity of O(n log n).
